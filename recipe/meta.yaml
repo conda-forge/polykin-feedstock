@@ -1,5 +1,5 @@
 {% set name = "polykin" %}
-{% set version = "0.7.0" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/polykin-{{ version }}.tar.gz
-  sha256: 40e4a6c1f9ac35832c4a35af346430d6b8e08842f85504892a0646fae40514db
+  sha256: 81f4d1f4e233ecf66e5b89e52992d297e88ebfe3c492c21b2f0c3cf9d611044d
 
 build:
   noarch: python
